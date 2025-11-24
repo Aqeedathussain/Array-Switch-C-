@@ -32,3 +32,19 @@ These programs are perfect for beginners who want to understand arrays, loops, a
 - Initializes an array of size 10 with all elements set to 5.
 - Prints the updated array to the console.
 - Demonstrates the use of `for` loops and array manipulation.
+
+**Code Snippet:**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[10];
+    for (int i = 0; i < 10; i++) {
+        arr[i] = 5;
+    }
+    for (int i = 0; i < 10; i++) {
+        cout << "The updated array is " << arr[i] << endl;
+    }
+    return 0;
+}
